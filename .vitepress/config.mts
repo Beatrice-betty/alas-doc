@@ -39,7 +39,7 @@ export default defineConfig({
           text: "快速了解",
           collapsed: true,
           items: [
-            { text: "概览", link: "/docs/start" },
+            { text: "概览", link: "/docs/info/infos" },
             { text: "Alas 社区准则", link: "/docs/info/rules" },
           ],
         },
@@ -47,7 +47,7 @@ export default defineConfig({
           text: "快速开始",
           collapsed: true,
           items: [
-            { text: "1", link: "/docs/start/introduction" },
+            { text: "换源教程", link: "/docs/start/start" },
           ],
         },
       ]

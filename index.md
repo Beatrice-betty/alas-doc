@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 快速了解
-      link: /docs/info/info
+      link: /docs/info/infos
     - theme: alt
       text: 开始使用
       link: /docs/02_quick_start/quickstart
@@ -38,6 +38,12 @@ features:
       light: /feature-icons/rocket.webp
       dark: /feature-icons/rocket_black.webp
       alt: 开箱即用
+  - title: 社区支持
+    details: 活跃的开源社区，持续更新维护
+    icon:
+      light: /feature-icons/chat.webp
+      dark: /feature-icons/chat_black.webp
+      alt: 社区支持
 ---
 
 <Confetti />
