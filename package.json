@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/dom-view-transitions": "^1.0.6",
+    "busuanzi.pure.js": "^1.0.3",
+    "canvas-confetti": "^1.9.3",
+    "vitepress": "^1.6.3",
+    "vitepress-sidebar": "^1.31.0",
+    "vitepress-theme-website": "^1.0.8"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:dev:port": "vitepress dev --port",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@vrcd-community/markdown-it-video": "^1.1.1"
+  }
+}
