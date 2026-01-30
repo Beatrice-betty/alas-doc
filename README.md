@@ -53,11 +53,11 @@ Windows 换源教程
 2. 打开文件夹/AzurLaneAutoScript/config
 [图片]
 3. 修改文件 deploy.yaml
-#### 下面是是github源：https://github.com/wess09/AzurLaneAutoScript，更新快
+#### 下面是是github源：https://github.com/wess09/AzurLaneAutoScript
 ![github](https://i.ibb.co/gMYKQMZD/github.png)
 
-#### 这里是gitee源：https://gitee.com/wqeaxc/AzurLaneAutoScript1，国内速度快
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+#### 这里是gitee源：https://gitee.com/wqeaxc/AzurLaneAutoScript1 
+![gitee](https://i.ibb.co/7tctz4j3/gitee.png)
 
 下载好后将deploy.yaml文件放在AzurLaneAutoScript\config文件夹的里面，直接替换
 
@@ -65,3 +65,121 @@ Windows 换源教程
 mac M 系列芯片部署
 [教程链接](https://www.bilibili.com/opus/1156311608203411461)
 配置文件同Windows一样
+
+## 五.配置教程
+
+#### 1.主题
+
+在主页这里,可以更换语言和主题
+![主题](https://i.ibb.co/DgbGQcwP/image.png)
+
+#### 2.游戏设置和模拟器设置
+
+- **2.1游戏设置一**：
+
+对照这个表格修改游戏内的设置，~~正常玩过游戏的都这么设置~~。
+
+> 对着改的意思是，这是统一的标准，照着给定的内容执行，不要问为什么，不允许有不一样的。
+
+主界面 => 右下角：设置 => 左侧边栏：选项
+
+| 设置名称                            | 值   |
+| ----------------------------------- | ---- |
+| 帧数设置                            | 60帧 |
+| 大型作战设置 - 减少TB引导           | 开   |
+| 大型作战设置 - 自律时自动提交道具   | 开   |
+| 大型作战设置 - 安全海域默认开启自律 | 关   |
+| 剧情自动播放                        | 开启 |
+| 剧情自动播放速度调整                | 特快 |
+| 待机模式设置 - 启用待机模式         | 关    |
+| 其他设置 - 重复角色获得提示         | 关   |
+| 其他设置 - 快速更换二次确认界面     | 关   |
+| 其他设置 - 展示结算角色             | 关   |
+
+大世界 => 右上角：雷达 => 指令模块(order)：潜艇支援：
+| 设置名称                                                 | 值               |
+| -------------------------------------------------------- | ---------------- |
+| X 消耗时潜艇出击  |取消勾选|
+
+主界面 => 右下角：建造 => 左侧边栏： 退役 => 左侧齿轮图标：一键退役设置：
+
+| 设置名称                                                 | 值               |
+| -------------------------------------------------------- | ---------------- |
+| 选择优先级1                                              | R                |
+| 选择优先级2                                              | SR               |
+| 选择优先级3                                              | N                |
+| 「拥有」满星的同名舰船时，保留几艘符合退役条件的同名舰船 | 不保留           |
+| 「没有」满星的同名舰船时，保留几艘符合退役条件的同名舰船 | 满星所需或不保留 |
+
+将角色设备的装备外观移除，以免影响图像识别
+
+2.2模拟器设置
+mumu模拟器
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+3.智慧港区
+3.1模拟器连接设置
+模拟器 Serial：选择模拟器adb连接方式,默认有推荐
+默认配置如下
+![模拟器](https://i.ibb.co/4nw6tT4n/image.png)
+截图方案请去工具位置，打开性能测试，alas会自动选择最优解
+3.2消息推送设置
+下面是企业微信推送的方法相对简单：
+1.
+https://bettergi.com/tutorial/notification_wechat.html#%E5%B7%B2%E7%BB%8F%E5%8A%A0%E5%85%A5%E4%BC%81%E4%B8%9A%E7%9A%84%E5%90%8C%E5%BF%97-%E7%82%B9%E5%87%BB%E3%80%90look-here%E3%80%91-%E4%BC%9A%E6%80%8E%E4%B9%88%E6%96%B0%E5%BB%BA%E7%9A%84%E5%90%8E%E9%9D%A2%E5%B0%B1%E6%8F%90%E5%8F%8A%E6%97%B6%E7%95%A5%E8%BF%87
+先照着上面的链接设置机器人，获取到key
+2.
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+然后复制下来粘贴到alas推送里面，格式为
+provider: wechatworkbot
+key: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
+3.
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+如图是钉钉消息推送配置 机器人安全策应选择关键词 关键词为alas
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+其他推送详见文档
+https://github.com/LmeSzinc/AzurLaneAutoScript/wiki/Onepush-configuration-%5BCN%5D
+
+验证：把游戏切换到啾信页面启动 alas ，等待10秒左右会报错并发送 GamePageUnknownError
+3.3优化设置
+如图默认即可
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+
+3.4掉落设置
+如图自行选择保存还是不保存
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+3.2通用设置
+3.2.1退役强化设置
+如图默认即可，强化可选择常用舰船精准强化
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+
+3.2.2任务管理
+优先级自行调整
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+Restart
+> OpsiCrossMonth
+> Commission > Tactical > Research
+> Exercise
+> Dorm > Meowfficer > Guild > Gacha
+> Reward
+> ShopFrequent > ShopOnce > Shipyard > Freebies
+> PrivateQuarters
+> OpsiExplore
+> Minigame > Awaken
+> OpsiAshBeacon
+> OpsiDaily > OpsiShop > OpsiVoucher
+> OpsiAbyssal > OpsiStronghold > OpsiObscure > OpsiArchive
+> Daily > Hard > OpsiAshBeacon > OpsiAshAssist > OpsiMonthBoss
+> Sos > EventSp > EventA > EventB > EventC > EventD
+> ISLAND
+> RaidDaily > CoalitionSp > WarArchives > MaritimeEscort
+> Event > Event2 > Raid > Hospital > HospitalEvent > Coalition > Main > Main2 > Main3
+> OpsiMeowfficerFarming
+> GemsFarming
+> OpsiHazard1Leveling
+
+
+3.2.3科研
+极端qq人（只做装备）：
+S8-DR0.5 > S8-Q0.5 > S8-PRY0.5 > S8-H0.5 > S8-Q4 > S8-Q2 > S8-Q1 > S8-G4 > S8-E-315 > S8-G1.5 > S8-E-031 > reset > S8-DR2.5 > S8-PRY2.5 > S8-H1 > S8-G2.5 > shortest
+![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
