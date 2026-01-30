@@ -4,47 +4,17 @@
 
 Alas plus文档站是基于 VitePress 开发的官方文档网站，旨在提供全面、清晰的 Alas plus使用指南。
 
-Alas plus，一个带GUI的碧蓝航线脚本,为 7x24 运行的场景而设计，能接管近乎全部的碧蓝航线玩法。碧蓝航线，作为一个手游，已经进入了生命周期的晚期。从现在到关服的这段时间里，请减少花费在碧蓝航线上的时间，请把一切都交给 Alas plus。
-
 这里是一张GUI预览图：
 ![gui](https://i.ibb.co/yBn1Bt9Y/GUI.png)
 
-## 一.alas plus功能
+## 一.alas plus在原版的基础上增加的功能
 
 - **🔥侵蚀一**：强制移动杜绝漏猫问题，卡吊机功能，短猫侵蚀一无缝衔接等
 - **⚡短猫相接**：突破2k行动力限制和10w黄币限制等
 - **🏝️岛屿计划**：可自动备菜，提交货运委托等
 - **🎉主线**：适配16图
 
-## 二.准则部分
-#### Alas 社区准则
-
-概述
-这个社区的目标是让 Alas 用户体验到 Lme 的温柔！
-为了实现这个社区的目标，我们要求您阅读并遵守以下准则。
-
-# 禁止将本源以任何形式发在alas原版群里 
-
-- 就事论事
-- 己所不欲勿施于人
-- 对他人的观点要求同存异
-- 尊重其他用户的隐私和个人信息
-- 以礼貌和尊重的态度进行沟通
-3.禁止事项
-- 宣传或刻意抹黑其他碧蓝航线相关脚本
-- 进行一系列 Alas 不提倡的游戏行为，如：红脸出击，刷侵蚀一等等
-- 通过修改源码等方式关闭开发组强制开启的功能
-- 修改作者名称或免费开源声明
-4.负责任地使用 Issues / Pull Request(PR)
-这些功能旨在激发参与 Alas 开发的兴趣，有机会成为 Alas 贡献者并参与到 Alas 的开发流程、未来规划中，以及更多有价值的内容。
-对 Issues / Pull Request(PR) 的建议包括：
-- 简单的问题请在以下平台进行提问
-- 提出Issue前认真填写相关模板，以便开发组可以及时复现问题并修复缺陷
-- 对 Alas 的 游戏相关 新内容开发请使用 dev 分支，对 Alas 的 新功能 开发请使用 feature 分支，对 bug 的修复请使用 bug_fix
-- 为了保护 master 分支，止向 master 分支提 Pull Request(PR)
-- 有关 Pull Request(PR) 的操作可以参考 Pull Request(PR)流程
-5.协议
-下载并开始使用Alas，即表示您同意上述条款和条件以及 Alas开源声明。
+# 二.禁止将本源以任何形式发在alas原版群里 
 
 ## 三.换源教程
 Windows 换源教程 
@@ -53,10 +23,10 @@ Windows 换源教程
 2. 打开文件夹/AzurLaneAutoScript/config
 ![文件图片](https://i.ibb.co/PvJRtR9Y/image.png)
 3. 修改文件 deploy.yaml
-#### 下面是是github源：https://github.com/wess09/AzurLaneAutoScript
+#### 下面是github源：https://github.com/wess09/AzurLaneAutoScript
 ![github](https://i.ibb.co/gMYKQMZD/github.png)
 
-#### 这里是gitee源：https://gitee.com/wqeaxc/AzurLaneAutoScript1 
+#### 下面是gitee源：https://gitee.com/wqeaxc/AzurLaneAutoScript1 
 ![gitee](https://i.ibb.co/7tctz4j3/gitee.png)
 
 下载好后将deploy.yaml文件放在AzurLaneAutoScript\config文件夹的里面，直接替换
@@ -75,7 +45,7 @@ mac M 系列芯片部署
 
 #### 2.游戏设置和模拟器设置
 
-- **2.1游戏设置一**：
+**2.1游戏设置**
 
 对照这个表格修改游戏内的设置，~~正常玩过游戏的都这么设置~~。
 
@@ -113,73 +83,41 @@ mac M 系列芯片部署
 
 将角色设备的装备外观移除，以免影响图像识别
 
-2.2模拟器设置
+**2.2模拟器设置**
 mumu模拟器
 ![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
-3.智慧港区
-3.1模拟器连接设置
+
+#### 3.智慧港区
+ 
+### 3.1港区设置
+
+**3.1.1模拟器连接设置**
 模拟器 Serial：选择模拟器adb连接方式,默认有推荐
 默认配置如下
-![模拟器](https://i.ibb.co/4nw6tT4n/image.png)
+![模拟器](https://i.ibb.co/WpWH4CM1/mumu.png)
 截图方案请去工具位置，打开性能测试，alas会自动选择最优解
-3.2消息推送设置
+
+**3.1.2消息推送设置**
 下面是企业微信推送的方法相对简单：
-1.
-https://bettergi.com/tutorial/notification_wechat.html#%E5%B7%B2%E7%BB%8F%E5%8A%A0%E5%85%A5%E4%BC%81%E4%B8%9A%E7%9A%84%E5%90%8C%E5%BF%97-%E7%82%B9%E5%87%BB%E3%80%90look-here%E3%80%91-%E4%BC%9A%E6%80%8E%E4%B9%88%E6%96%B0%E5%BB%BA%E7%9A%84%E5%90%8E%E9%9D%A2%E5%B0%B1%E6%8F%90%E5%8F%8A%E6%97%B6%E7%95%A5%E8%BF%87
+[企业微信设置机器人](https://bettergi.com/tutorial/notification_wechat.html#%E5%B7%B2%E7%BB%8F%E5%8A%A0%E5%85%A5%E4%BC%81%E4%B8%9A%E7%9A%84%E5%90%8C%E5%BF%97-%E7%82%B9%E5%87%BB%E3%80%90look-here%E3%80%91-%E4%BC%9A%E6%80%8E%E4%B9%88%E6%96%B0%E5%BB%BA%E7%9A%84%E5%90%8E%E9%9D%A2%E5%B0%B1%E6%8F%90%E5%8F%8A%E6%97%B6%E7%95%A5%E8%BF%87)
 先照着上面的链接设置机器人，获取到key
-2.
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+
+![微信推送](https://i.ibb.co/Jj8x3vrd/image.jpg)
 然后复制下来粘贴到alas推送里面，格式为
+
 provider: wechatworkbot
 key: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
-3.
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
-如图是钉钉消息推送配置 机器人安全策应选择关键词 关键词为alas
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+
+![推送设置](https://i.ibb.co/ksc85Tng/image.jpg)
+
 其他推送详见文档
-https://github.com/LmeSzinc/AzurLaneAutoScript/wiki/Onepush-configuration-%5BCN%5D
+[文档](https://github.com/LmeSzinc/AzurLaneAutoScript/wiki/Onepush-configuration-%5BCN%5D)
 
 验证：把游戏切换到啾信页面启动 alas ，等待10秒左右会报错并发送 GamePageUnknownError
-3.3优化设置
-如图默认即可
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
 
-3.4掉落设置
-如图自行选择保存还是不保存
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
-3.2通用设置
-3.2.1退役强化设置
-如图默认即可，强化可选择常用舰船精准强化
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+### 3.2通用设置
 
-3.2.2任务管理
-优先级自行调整
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
-Restart
-> OpsiCrossMonth
-> Commission > Tactical > Research
-> Exercise
-> Dorm > Meowfficer > Guild > Gacha
-> Reward
-> ShopFrequent > ShopOnce > Shipyard > Freebies
-> PrivateQuarters
-> OpsiExplore
-> Minigame > Awaken
-> OpsiAshBeacon
-> OpsiDaily > OpsiShop > OpsiVoucher
-> OpsiAbyssal > OpsiStronghold > OpsiObscure > OpsiArchive
-> Daily > Hard > OpsiAshBeacon > OpsiAshAssist > OpsiMonthBoss
-> Sos > EventSp > EventA > EventB > EventC > EventD
-> ISLAND
-> RaidDaily > CoalitionSp > WarArchives > MaritimeEscort
-> Event > Event2 > Raid > Hospital > HospitalEvent > Coalition > Main > Main2 > Main3
-> OpsiMeowfficerFarming
-> GemsFarming
-> OpsiHazard1Leveling
-
-
-3.2.3科研
+**3.2.1科研**
 极端qq人（只做装备）：
 S8-DR0.5 > S8-Q0.5 > S8-PRY0.5 > S8-H0.5 > S8-Q4 > S8-Q2 > S8-Q1 > S8-G4 > S8-E-315 > S8-G1.5 > S8-E-031 > reset > S8-DR2.5 > S8-PRY2.5 > S8-H1 > S8-G2.5 > shortest
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+![科研](https://i.ibb.co/HTLv3qfX/image.png)
