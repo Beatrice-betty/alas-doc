@@ -85,27 +85,29 @@ mac M 系列芯片部署
 
 **2.2模拟器设置**
 mumu模拟器
-![gitee](https://i.ibb.co/QjbqcQxL/gitee.png)
+![mumu](https://i.ibb.co/WpWH4CM1/mumu.png)
 
 #### 3.智慧港区
- 
+
 ### 3.1港区设置
 
 **3.1.1模拟器连接设置**
 模拟器 Serial：选择模拟器adb连接方式,默认有推荐
 默认配置如下
-![模拟器](https://i.ibb.co/WpWH4CM1/mumu.png)
+![模拟器](https://i.ibb.co/xq3VmBVq/image.png)
 截图方案请去工具位置，打开性能测试，alas会自动选择最优解
 
 **3.1.2消息推送设置**
 下面是企业微信推送的方法相对简单：
 [企业微信设置机器人](https://bettergi.com/tutorial/notification_wechat.html#%E5%B7%B2%E7%BB%8F%E5%8A%A0%E5%85%A5%E4%BC%81%E4%B8%9A%E7%9A%84%E5%90%8C%E5%BF%97-%E7%82%B9%E5%87%BB%E3%80%90look-here%E3%80%91-%E4%BC%9A%E6%80%8E%E4%B9%88%E6%96%B0%E5%BB%BA%E7%9A%84%E5%90%8E%E9%9D%A2%E5%B0%B1%E6%8F%90%E5%8F%8A%E6%97%B6%E7%95%A5%E8%BF%87)
+
 先照着上面的链接设置机器人，获取到key
 
 ![微信推送](https://i.ibb.co/Jj8x3vrd/image.jpg)
-然后复制下来粘贴到alas推送里面，格式为
+然后复制下来粘贴到alas推送里面，格式为:
 
 provider: wechatworkbot
+
 key: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
 
 ![推送设置](https://i.ibb.co/ksc85Tng/image.jpg)
