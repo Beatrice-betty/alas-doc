@@ -88,9 +88,9 @@ mac M 系列芯片部署
 mumu模拟器
 ![mumu](https://i.ibb.co/WpWH4CM1/mumu.png)
 
-### 3.智慧港区
+## 3.智慧港区
 
-#### 3.1港区设置
+### 3.1港区设置
 
 **3.1.1模拟器连接设置**
 模拟器 Serial：选择模拟器adb连接方式,默认有推荐
@@ -104,7 +104,7 @@ mumu模拟器
 
 先照着上面的链接设置机器人，获取到key
 
-![微信推送](https://i.ibb.co/Jj8x3vrd/image.jpg)
+![微信推送](https://i.ibb.co/whjDjM7V/image.jpg)
 然后复制下来粘贴到alas推送里面，格式为:
 
 provider: wechatworkbot
@@ -118,7 +118,7 @@ key: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
 
 验证：把游戏切换到啾信页面启动 alas ，等待10秒左右会报错并发送 GamePageUnknownError
 
-#### 3.2通用设置
+### 3.2通用设置
 
 **3.2.1科研**
 
@@ -126,17 +126,17 @@ key: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
 S8-DR0.5 > S8-Q0.5 > S8-PRY0.5 > S8-H0.5 > S8-Q4 > S8-Q2 > S8-Q1 > S8-G4 > S8-E-315 > S8-G1.5 > S8-E-031 > reset > S8-DR2.5 > S8-PRY2.5 > S8-H1 > S8-G2.5 > shortest
 ![科研](https://i.ibb.co/HTLv3qfX/image.png)
 
-### 4.大世界
+## 4.大世界
 
-#### 4.1大世界通用设置
+### 4.1大世界通用设置
 ![](https://i.ibb.co/4wY1YZ54/a.png)
 
-#### 4.2短猫设置
+### 4.2短猫设置
 ![](https://i.ibb.co/99GJQ2wd/B.png)
 
 短猫推荐刷取12.13海域，行动力建议设置：月初3k+，月末2k+
 
-#### 4.3侵蚀一设置
+### 4.3侵蚀一设置
 
 **4.3.1练级设置**
 ![练级](https://i.ibb.co/NgYGp5WV/71-c.png)
@@ -161,7 +161,7 @@ S8-DR0.5 > S8-Q0.5 > S8-PRY0.5 > S8-H0.5 > S8-Q4 > S8-Q2 > S8-Q1 > S8-G4 > S8-E-
 
 只做参考，建议不要开启延迟任务，alas检测时可能会漏掉几个
 
-#### 4.4杂项设置
+### 4.4杂项设置
 
 **4.4.1每月开荒**
 ![开荒](https://i.ibb.co/pBn8G2y7/f.png)
@@ -172,7 +172,7 @@ S8-DR0.5 > S8-Q0.5 > S8-PRY0.5 > S8-H0.5 > S8-Q4 > S8-Q2 > S8-Q1 > S8-G4 > S8-E-
 **4.4.3隐秘海域**
 ![隐秘](https://i.ibb.co/tpK28JCz/h.png)
 
-#### 4.5原理解析
+### 4.5原理解析
 [【百万海里】全村最细的碧蓝航线侵蚀一全过程教学](https://www.bilibili.com/video/BV1bkroBLEi7/?share_source=copy_web&vd_source=bf7e55e0eede1c89d03065b566eb7a96)
 
 [【碧蓝航线】3分钟学会侵蚀1的无限循环](https://www.bilibili.com/video/BV1H6anzbEMM/?share_source=copy_web&vd_source=bf7e55e0eede1c89d03065b566eb7a96)
