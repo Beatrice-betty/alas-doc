@@ -51,7 +51,7 @@ Windows 换源教程
 1. 下载原版Alas
 [下载地址](https://lmeszinc.lanzouu.com/iDvK230zn57e)
 2. 打开文件夹/AzurLaneAutoScript/config
-[图片]
+![文件图片](https://i.ibb.co/PvJRtR9Y/image.png)
 3. 修改文件 deploy.yaml
 #### 下面是是github源：https://github.com/wess09/AzurLaneAutoScript
 ![github](https://i.ibb.co/gMYKQMZD/github.png)
