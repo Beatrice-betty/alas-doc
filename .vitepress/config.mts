@@ -40,6 +40,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "概览", link: "/docs/info/infos" },
+            { text: "Alas Plus 配置教程", link: "/docs/info/tutorial" },
             { text: "Alas 社区准则", link: "/docs/info/rules" },
           ],
         },
