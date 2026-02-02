@@ -3,7 +3,7 @@
 ## 1. 主题
 
 在主页这里,可以更换语言和主题
-![主题](https://i.ibb.co/DgbGQcwP/image.png)
+![主题](./image/主题.png)
 
 ## 2. 游戏设置和模拟器设置
 
@@ -47,7 +47,7 @@
 
 ### 2.2 模拟器设置
 mumu模拟器
-![mumu](https://i.ibb.co/WpWH4CM1/mumu.png)
+![mumu模拟器设置](./image/mumu模拟器设置.png)
 
 ## 3. 智慧港区
 
@@ -56,7 +56,7 @@ mumu模拟器
 #### 3.1.1 模拟器连接设置
 模拟器 Serial：选择模拟器adb连接方式,默认有推荐
 默认配置如下
-![模拟器](https://i.ibb.co/xq3VmBVq/image.png)
+![模拟器](./image/模拟器.png)
 截图方案请去工具位置，打开性能测试，alas会自动选择最优解
 
 #### 3.1.2 消息推送设置
@@ -65,14 +65,14 @@ mumu模拟器
 
 先照着上面的链接设置机器人，获取到key
 
-![微信推送](https://i.ibb.co/whjDjM7V/image.jpg)
+![微信推送](./image/微信推送.jpg)
 然后复制下来粘贴到alas推送里面，格式为:
 
 provider: wechatworkbot
 
 key: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
 
-![推送设置](https://i.ibb.co/ksc85Tng/image.jpg)
+![推送设置](./image/推送设置.jpg)
 
 其他推送详见文档
 [文档](https://github.com/LmeSzinc/AzurLaneAutoScript/wiki/Onepush-configuration-%5BCN%5D)
@@ -85,53 +85,53 @@ key: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=
 
 极端qq人（只做装备）：
 S8-DR0.5 > S8-Q0.5 > S8-PRY0.5 > S8-H0.5 > S8-Q4 > S8-Q2 > S8-Q1 > S8-G4 > S8-E-315 > S8-G1.5 > S8-E-031 > reset > S8-DR2.5 > S8-PRY2.5 > S8-H1 > S8-G2.5 > shortest
-![科研](https://i.ibb.co/HTLv3qfX/image.png)
+![科研](./image/科研.png)
 
 ## 4. 大世界
 
 ### 4.1 大世界通用设置
-![](https://i.ibb.co/4wY1YZ54/a.png)
+![大世界通用](./image/大世界通用.png)
 
 ### 4.2 短猫设置
-![](https://i.ibb.co/99GJQ2wd/B.png)
+![短猫相接](./image/短猫相接.png)
 
 短猫推荐刷取12.13海域，行动力建议设置：月初3k+，月末2k+
 
 ### 4.3 侵蚀一设置
 
 #### 4.3.1 练级设置
-![练级](https://i.ibb.co/NgYGp5WV/71-c.png)
+![练级](./image/练级.png)
 
 黄币保留量推荐：1.长期24小时刷：3w  2.短期随缘刷：10w
 
 #### 4.3.2 塞壬研究装置bug利用
-![bug](https://i.ibb.co/WNYFS7qT/71-d.png)
+![bug](./image/bug.png)
 
 安全海域推荐刷取158.159海域，防止卡的吊机被每日刷没
 指定bug利用区域为你吊机所处的位置
 
 #### 4.3.3 智能化调度设置
-![调度](https://i.ibb.co/ccr5DGg0/71-e.png)
+![调度](./image/调度.png)
 
 1. 行动力控制侵蚀一：黄币到达最低阈值时启动短猫相接获取黄币，行动力不足短猫消耗，黄币又不够就推迟时间
 2. 黄币控制侵蚀一：侵蚀一保存的黄币+需要补充的黄币数＝黄币数，在刷取到足够黄币直接关闭短猫
 黄币控制能保证不过多浪费行动力，行动力控制能保证给侵蚀一留取足够黄币，自行选择
 
 #### 4.3.4 每日经验检测
-![经验](https://i.ibb.co/8n0TzfYQ/K.png)
+![经验](./image/经验.png)
 
 只做参考，建议不要开启延迟任务，alas检测时可能会漏掉几个
 
 ### 4.4 杂项设置
 
 #### 4.4.1 每月开荒
-![开荒](https://i.ibb.co/pBn8G2y7/f.png)
+![开荒](./image/开荒.png)
 
 #### 4.4.2 大世界每日
-![每日](https://i.ibb.co/d0GSJs6K/g.png)
+![每日](./image/每日.png)
 
 #### 4.4.3 隐秘海域
-![隐秘](https://i.ibb.co/tpK28JCz/h.png)
+![隐秘](./image/隐秘.png)
 
 ### 4.5 原理解析
 [【百万海里】全村最细的碧蓝航线侵蚀一全过程教学](https://www.bilibili.com/video/BV1bkroBLEi7/?share_source=copy_web&vd_source=bf7e55e0eede1c89d03065b566eb7a96)
@@ -139,7 +139,7 @@ S8-DR0.5 > S8-Q0.5 > S8-PRY0.5 > S8-H0.5 > S8-Q4 > S8-Q2 > S8-Q1 > S8-G4 > S8-E-
 [【碧蓝航线】3分钟学会侵蚀1的无限循环](https://www.bilibili.com/video/BV1H6anzbEMM/?share_source=copy_web&vd_source=bf7e55e0eede1c89d03065b566eb7a96)
 
 #### 海域id
-![id](https://i.ibb.co/kgj4PCcQ/id-i.jpg)
+![id](./image/id.jpg)
 
 #### 吊机原理
-![原理](https://i.ibb.co/dJLmxHxC/j.jpg)
+![原理](./image/原理.jpg)
