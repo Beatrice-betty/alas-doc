@@ -87,7 +87,7 @@ Alas 采用 Python 开发，核心架构包括：
 
 ### 📸 GUI 预览
 
-![gui](https://i.ibb.co/yBn1Bt9Y/GUI.png)
+![gui](./image\GUI.png)
 
 ### ✨ Alas Plus 新增功能
 
